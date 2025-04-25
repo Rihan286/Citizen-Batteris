@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Citizen Batteries | Car, Bike, Tractor Batteries & Electricals</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    body { margin: 0; font-family: 'Segoe UI', sans-serif; background: #fff; color: #333; }
+    a { text-decoration: none; color: inherit; }
+
+    header {
+      background: #c0392b;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px; /* Adjust space between logo and text */
+    }
+    header .logo {
+      height: 40px; /* Adjust the logo height */
+      width: auto;  /* Keep the aspect ratio of the logo */
+    }
+
+    nav { background: #e74c3c; display: flex; justify-content: center; flex-wrap: wrap; position: sticky; top: 0; z-index: 1000; }
+    nav a { color: white; padding: 1rem; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+
+    .hero {
+      background-image: url('https://plus.unsplash.com/premium_photo-1661770030805-0abb8fd880f1?q=80&w=1952&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 0 2px 5px rgba(0,0,0,0.6);
+      flex-direction: column;
+      text-align: center;
+    }
+    .hero h1 { font-size: 3rem; }
+    .hero .cta-btn {
+      margin-top: 1rem;
+      background: white;
+      color: #c0392b;
+      padding: 0.8rem 2rem;
+      border-radius: 30px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .hero .cta-btn:hover { background: #f1f1f1; }
+
+    .container { max-width: 1200px; margin: auto; padding: 2rem 1rem; }
+    .section { margin-bottom: 3rem; }
+    .section h2 { color: #c0392b; margin-bottom: 1.5rem; text-transform: uppercase; text-align: center; }
+
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; }
+    .card {
+      background: rgba(255,255,255,0.9);
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: 0.3s;
+    }
+    .card:hover { transform: translateY(-5px); }
+    .card img { width: 100%; height: 160px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem; }
+
+    .how-it-works { display: flex; justify-content: space-around; text-align: center; flex-wrap: wrap; }
+    .how-it-works div { flex: 1; padding: 1rem; min-width: 200px; }
+
+    .brands { display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; }
+    .brand-logo { height: 60px; filter: grayscale(100%); transition: 0.3s; }
+    .brand-logo:hover { filter: none; }
+
+    iframe { width: 100%; height: 300px; border: 0; margin-top: 1rem; }
+
+    .floating-buttons {
+      position: fixed; bottom: 20px; right: 20px; display: flex; flex-direction: column; gap: 10px; z-index: 999;
+    }
+    .floating-buttons a {
+      background: #25d366; color: white; padding: 10px 15px; border-radius: 50%; box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      font-size: 20px; text-align: center;
+    }
+    .floating-buttons a.call { background: #c0392b; }
+
+    footer {
+      background-color: #000; /* Black background for footer */
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    footer a { color: #fff; text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="https://i.ibb.co/tT69jgq1/download-Photoroom.png" alt="Citizen Batteries Logo" class="logo">
+  <h1>Citizen Batteries</h1>
+  <p>Your Trusted Car, Bike, Tractor Battery Experts</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#services">Services</a>
+  <a href="#products">Products</a>
+  <a href="#how">How it Works</a>
+  <a href="#brands">Brands</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+  <h1>Powering Your Journey</h1>
+  <a href="#contact" class="cta-btn">Book Now</a>
+</div>
+
+<div class="container">
+  <section id="home" class="section">
+    <h2>Welcome to Citizen Batteries</h2>
+    <p>Located in Shanthinagar, Shikaripur – we provide car, bike, tractor and inverter battery installation and expert auto electrical services. Quality brands, professional service.</p>
+  </section>
+
+  <section id="services" class="section">
+    <h2>Our Services</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://erautocare.com/wp-content/uploads/2024/07/Car-Battery-Installation.webp">
+        <h3>Battery Installation</h3>
+        <p>Fast, professional replacement for all types of batteries.</p>
+      </div>
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_oLnoiDwUgJ_2bYQP4DvT76fPir2BUqBwbg&s" alt="Electrical Repairs">
+        <h3>Electrical Repairs</h3>
+        <p>Fix alternators, lights, wiring, starters, and more.</p>
+      </div>
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuuFRrGJT8UvBlvh2lEZ-zri6famUaovlt_a4beOPUEguwax90YZIguDETho4UxWB_TP8&usqp=CAU" alt="Wiring Upgrades">
+        <h3>Wiring & Lighting</h3>
+        <p>Modernize vehicle wiring and enhance safety lighting systems.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="products" class="section">
+    <h2>Our Batteries</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://rukminim2.flixcart.com/image/850/1000/k6i7zww0/car-battery/h/f/v/fmi0-mreddin6012-exide-original-imafz27zemzcqemn.jpeg?q=90&crop=false">
+        <h3>Car Batteries</h3>
+        <p>Exide, Amaron – long-lasting, maintenance-free solutions.</p>
+      </div>
+      <div class="card">
+        <img src="https://5.imimg.com/data5/SELLER/Default/2022/6/UV/PN/ON/139061005/two-wheeler-bikes-battery.JPG" alt="Bike Battery">
+        <h3>Bike Batteries</h3>
+        <p>High-performance batteries for scooters and motorcycles.</p>
+      </div>
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx1pBi61N8yGt5EpUZE9ZJwRqpKTaHopETOw&s" alt="Tractor Battery">
+        <h3>Tractor Batteries</h3>
+        <p>Rugged power for agricultural and off-road machines.</p>
+      </div>
+      <div class="card">
+        <img src="https://www.exidecare.com/images/battery-range-2-inverter.jpg" alt="Inverter Battery">
+        <h3>Inverter Batteries</h3>
+        <p>Reliable backup for homes and offices during power cuts.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="how" class="section">
+    <h2>How It Works</h2>
+    <div class="how-it-works">
+      <div><i class="fas fa-calendar-check fa-2x"></i><p>Book Appointment</p></div>
+      <div><i class="fas fa-tools fa-2x"></i><p>We Visit & Service</p></div>
+      <div><i class="fas fa-car-battery fa-2x"></i><p>Enjoy Seamless Power</p></div>
+    </div>
+  </section>
+
+  <section id="brands" class="section">
+    <h2>Brands We Work With</h2>
+    <div class="brands">
+      <img src="https://www.exidecare.com/images/headerLogo.jpg" alt="Exide" class="brand-logo">
+      <img src="https://amaron-prod-images.s3.ap-south-1.amazonaws.com/s3fs-public/Amaron_Logo_0.jpg" alt="Amaron" class="brand-logo">
+      <img src="https://lumprodsta.blob.core.windows.net/prodcontainer/assets/icons/LuminousLogoBlue.webp" alt="Livguard" class="brand-logo">
+    </div>
+  </section>
+</div>
+
+<footer>
+  <h2>Contact Us</h2>
+  <p><strong>Phone:</strong> <a href="tel:+919986471316">9986471316</a></p>
+  <p><strong>WhatsApp:</strong> <a href="https://wa.me/919986471316" target="_blank">Chat on WhatsApp</a></p>
+  <p><strong>Email:</strong> <a href="mailto:juneddarugar@gmail.com">juneddarugar@gmail.com</a></p>
+  <p><strong>Location:</strong> Shanthinagar, Keshavanagar, Shikaripur, Karnataka 577427</p>
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.22006489958!2d75.35358957583684!3d14.271593886738494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbba88f0a6f5abf%3A0xf9dfb55a8aa677f6!2sShanthinagar%2C%20Shikaripur%2C%20Karnataka%20577427!5e0!3m2!1sen!2sin!4v1714045911000!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</footer>
+
+<div class="floating-buttons">
+  <a href="tel:+919986471316" class="call"><i class="fas fa-phone"></i></a>
+  <a href="https://wa.me/919986471316" target="_blank"><i class="fab fa-whatsapp"></i></a>
+</div>
+
+</body>
+</html>
